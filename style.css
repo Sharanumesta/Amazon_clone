@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+input, select {
+    border: none;
+    outline: none; 
+    box-shadow: none; 
+    padding: 8px; 
+}
+
+input:focus, select:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+span{
+    font-size: 0.7rem;
+    font-size: 12px;
+}
+ 
+/* Navbar */
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 55px;
+    width: 110px;
+}
+.logo{
+    background-image: url("./amazon-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+    transition: border 0.3s;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/* box 2 Address */
+.add-icon{
+    display: flex;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 20px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 8px;
+}
+
+/* box 3 search bar */
+
+.nav-search{
+    border: 3px solid transparent;
+    display: flex;
+    justify-content:space-between;
+    width: 900px;
+    height: 45px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 3px solid #febb68;
+    border-radius: 8px;
+}
+.search-select{
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    bottom: none;
+    padding: 0 0 0 5px;
+    color: #0f1111;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    padding: 7px 10px 7px;
+}
+
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #febb68;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: black;
+    font-size: 1.4rem;
+    border-radius: 0 5px 5px 0;
+}
+
+
+/* box 4 Sign in */
+
+.nav-signin{
+
+}
+
+.nav-second{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* box 5 Card  */
+.nav-cart {
+    display: flex;
+    align-items: end;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.nav-cart i {
+    font-size: 25px;
+    margin-right: 5px;
+}
+.nav-cart{
+    font-size: 14px;
+}
