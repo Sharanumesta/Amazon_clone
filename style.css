@@ -56,7 +56,7 @@ span{
 }
 
 
-/* box 2 Address */
+    /* box 2 Address */
 .add-icon{
     display: flex;
 }
@@ -72,7 +72,7 @@ span{
     margin-left: 8px;
 }
 
-/* box 3 search bar */
+    /* box 3 search bar */
 
 .nav-search{
     border: 3px solid transparent;
@@ -88,7 +88,7 @@ span{
 }
 .search-select{
     background-color: #e6e6e6;
-    width: 50px;
+    width: 60px;
     text-align: center;
     border-radius: 5px 0 0 5px;
     bottom: none;
@@ -118,7 +118,7 @@ span{
 }
 
 
-/* box 4 Sign in */
+    /* box 4 Sign in */
 
 .nav-signin{
 
@@ -130,7 +130,7 @@ span{
 }
 
 
-/* box 5 Card  */
+    /* box 5 Card  */
 .nav-cart {
     display: flex;
     align-items: end;
@@ -146,4 +146,81 @@ span{
 }
 .nav-cart{
     font-size: 14px;
+}
+
+/* Panel section  */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-size: 14px;
+    padding: 0px 0px 0px 11px;
+    font-weight: 500;
+}
+
+.panel-all{
+    padding: 8px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all i{
+    font-size: 18px;
+}
+.panel-all span{
+    padding: 0 0 0 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.panel-ops{
+    display: flex;
+}
+
+.panel-ops p{
+    padding: 8px 9px;
+    margin: 5px 0px 6px;
+}
+
+/* sub-nav */
+
+.sub-nav{
+    height: 33px;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0 9px 0 15px;
+    border-top: 1px solid rgba(0, 0, 0, .17);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.sub-nav-items{
+    display: flex;
+    align-items: center;
+    line-height: 33px;
+    font-size: 12px;
+    color: #333;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+}
+
+.sub-nav-items p{
+    padding: 0 11px;
+}
+
+.sub-nav-items-tDeal{
+    font-weight: 700;
+}
+
+.sub-nav-items p{
+    border-bottom: 1px solid transparent;
+    block-size: border-box;
+}
+
+.sub-nav-items p:hover {
+    color: #FF9900;
+    border-bottom: 1px solid #FF9900; /* Use outlitom as transparent */
 }
