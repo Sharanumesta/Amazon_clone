@@ -222,13 +222,12 @@ span{
 
 .sub-nav-items p:hover {
     color: #FF9900;
-    border-bottom: 1px solid #FF9900; /* Use outlitom as transparent */
+    border-bottom: 1px solid #FF9900;
 }
-
 
 /* Hero section */
 .hero-section{
-    background: url("./amazon-logo.png");
+    background: url("hero-img.png");
     height: 350px;
     background-size: cover;
     display: flex;
