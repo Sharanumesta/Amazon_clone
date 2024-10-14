@@ -232,7 +232,6 @@ span{
 .hero-section{
     background: url("hero-img.png");
     height: 350px;
-    
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -266,16 +265,18 @@ span{
 }
 
 .box{
-    height: 420px;
+    height: auto;
     width: 22%;
     background: white;
     padding: 30px 0 15px;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .box-img{
     height: 300px;
     background-size: cover;
+    background-position: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -287,6 +288,7 @@ span{
 
 
 .box-img h2{
+    font-size: 21px;
 }
 
 .box-content p{
@@ -294,3 +296,65 @@ span{
 }
 
 /* Shop section End*/
+
+/* Footer section Starts */
+
+footer{
+}
+.foot-panel{
+    padding: 15px 0px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 19px;
+    background-color: #37475a;
+}
+
+.foot-panel a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* foot panel 2 */
+
+.foot-panel2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222f3d;
+    color: #fff;
+    height: auto;
+    padding: 40px;
+}
+
+.foot-panel2-col {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+
+ul p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 6px 0px 14px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
