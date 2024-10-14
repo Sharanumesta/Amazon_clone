@@ -125,7 +125,7 @@ span{
 }
 
 .nav-second{
-    font-size: 14px;
+    font-size: 0.85rem;
     font-weight: 700;
 }
 
@@ -135,18 +135,19 @@ span{
     display: flex;
     align-items: end;
     color: white;
-    font-size: 24px;
+    font-size: 1.7rem;
     font-weight: 700;
     margin-left: 20px;
 }
 
 .nav-cart i {
-    font-size: 25px;
+    font-size: 1.7rem;
     margin-right: 5px;
 }
 .nav-cart{
-    font-size: 14px;
+    font-size: 0.85rem;
 }
+/* Navbar end */
 
 /* Panel section  */
 
@@ -156,7 +157,7 @@ span{
     align-items: center;
     color: #ffffff;
     display: flex;
-    font-size: 14px;
+    font-size: 0.85rem;
     padding: 0px 0px 0px 11px;
     font-weight: 500;
 }
@@ -173,7 +174,7 @@ span{
 }
 .panel-all span{
     padding: 0 0 0 5px;
-    font-size: 14px;
+    font-size: 0.85rem;
     font-weight: 600;
 }
 
@@ -185,11 +186,12 @@ span{
     padding: 8px 9px;
     margin: 5px 0px 6px;
 }
+/* Panel section  End*/
 
 /* sub-nav */
-
 .sub-nav{
     height: 33px;
+    width: 100%;
     background-color: #fafafa;
     margin: 0;
     padding: 0 9px 0 15px;
@@ -200,8 +202,8 @@ span{
 .sub-nav-items{
     display: flex;
     align-items: center;
-    line-height: 33px;
-    font-size: 12px;
+    line-height: 30px;
+    font-size: 0.85rem;
     color: #333;
     box-sizing: border-box;
     border-bottom: 1px solid transparent;
@@ -216,19 +218,21 @@ span{
 }
 
 .sub-nav-items p{
-    border-bottom: 1px solid transparent;
+    border-bottom: 3px solid transparent;
     block-size: border-box;
 }
 
 .sub-nav-items p:hover {
     color: #FF9900;
-    border-bottom: 1px solid #FF9900;
+    border-bottom: 2px solid #FF9900;
 }
+/* sub-nav End*/
 
 /* Hero section */
 .hero-section{
     background: url("hero-img.png");
     height: 350px;
+    
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -251,3 +255,42 @@ span{
     color: #007185;
     text-decoration: none;
 }
+/* Hero section End
+
+/* Shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 420px;
+    width: 22%;
+    background: white;
+    padding: 30px 0 15px;
+    margin-top: 1rem;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+
+.box-img h2{
+}
+
+.box-content p{
+    color: #007185
+}
+
+/* Shop section End*/
